@@ -1,0 +1,62 @@
+.login-box{
+
+    
+    /*border:2px solid black;*/
+    width:40%;
+    margin-left:27%;
+
+}
+
+.login-logo{
+ 
+ margin-left:36%;
+ margin-bottom:5%;
+ width: fit-content;
+
+}
+
+.login-form{
+
+    border:2px solid black;
+}
+
+.login-heading{
+
+margin-left: 39%;
+margin-top: 2%;
+font-family:'Hammersmith One';
+font-size: 1.5rem;
+}
+
+.login-fields{
+margin-left: 7%;
+margin-top:5%;
+
+}   
+
+.login-form-label{
+    
+    font-family:'Hammersmith One';
+    font-size: 1.2rem;
+    margin-left:18%;
+    margin-right: 5%;
+    
+}
+
+.login-field{
+
+    margin-bottom: 5%;
+}
+
+.link-to-signUpPage{
+
+    text-decoration: none;
+    margin-left: 25%;
+}
+
+.submit-button{
+
+    margin-left: 40%;
+    margin-top:5%;
+    margin-bottom: 5%;
+}

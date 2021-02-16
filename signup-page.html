@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curry Hurry</title>
+
+    <!--Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+     <!--Google Fonts-->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="./styleSheets/signUpPage.css">
+
+    <!--Script-->
+    <script src="./public/script.js"></script>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="row">
+            <div class="signUp-box">
+
+              <div class="signUp-logo">
+                 <img src="images/logo-small.JPG">
+              </div>
+
+              <div class="signUp-form ">
+                  <div class="signUp-heading ">
+                    Register
+                  </div>
+                  <div class="signUp-fields">
+                    <div class="row">
+
+                      <div class="signUp-field">
+                          <div class="form-group col-10" style="display: flex ;flex-direction: row ;justify-content: center; align-items: center">
+                           
+
+                               <div class="signUp-form-label col-4" >Name</div>
+                             <!--<label for="customerId" class="signUp-form-label">Customer ID</label>-->
+                                <input type="text" class="form-control signUp-form-input " id="customerName" placeholder="Your Name">
+                          </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <a href="index.html" class="link-to-signInPage">Already Registered? Sign In here</a>
+              
+              <div class="submit-button">
+                 <input class="btn btn-danger" type="submit" value="Register" onClick="getCustomerInput()">
+              </div>
+                 
+              </div>
+
+              
+            </div>
+
+        </div>
+            
+    </div>
+        
+    </div>
+</body>
+</html>

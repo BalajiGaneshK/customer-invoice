@@ -1,0 +1,62 @@
+.signUp-box {
+
+
+    /*border:2px solid black;*/
+    width: 40%;
+    margin-left: 27%;
+
+}
+
+.signUp-logo {
+
+    margin-left: 36%;
+    margin-bottom: 5%;
+    width: fit-content;
+
+}
+
+.signUp-form {
+
+    border: 2px solid black;
+}
+
+.signUp-heading {
+
+    margin-left: 39%;
+    margin-top: 2%;
+    font-family: 'Hammersmith One';
+    font-size: 1.5rem;
+}
+
+.signUp-fields {
+    margin-left: 7%;
+    margin-top: 5%;
+
+}
+
+.signUp-form-label {
+
+    font-family: 'Hammersmith One';
+    font-size: 1.2rem;
+    margin-left: 18%;
+    margin-right: 5%;
+
+}
+
+.signUp-field {
+
+    margin-bottom: 5%;
+}
+
+.link-to-signInPage {
+
+    text-decoration: none;
+    margin-left: 25%;
+}
+
+.submit-button {
+
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

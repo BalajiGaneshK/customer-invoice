@@ -4,3 +4,5 @@ function getCustomerInput () {
     console.log(inputCustomerName);
 
 }
+
+window.getCustomerInput = getCustomerInput;

@@ -1,8 +1,10 @@
+let signUpBtn = document.getElementById("sign-up-submit-button");
 
-function getCustomerInput () {
-    let inputCustomerName = (<HTMLInputElement>document.getElementById("customerName")).value;
+signUpBtn.addEventListener("click", function getCustomerInput() {
+    let inputCustomerName = (<HTMLInputElement>document.getElementById("customerName2")).value;
     console.log(inputCustomerName);
 
 }
+)
 
-window.getCustomerInput = getCustomerInput;
+

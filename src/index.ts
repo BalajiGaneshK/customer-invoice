@@ -17,3 +17,4 @@ let acc = new account(8001, c);
 console.log(acc);
 
 //hello world nowss
+//lorem ipsum dolor itsum sit

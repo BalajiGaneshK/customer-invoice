@@ -7,4 +7,4 @@ signUpBtn.addEventListener("click", function getCustomerInput() {
 }
 )
 
-
+//good to see

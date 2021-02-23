@@ -1,6 +1,7 @@
 import customer, { customerDetails } from "./customer";
 import invoice, { invoiceDetails } from "./invoice";
 import account from "./account";
+import getCustomerName from './signUp-page';
 
 
 let custObj: customerDetails = { ID: 1, name: "Balaji", discount: 5 };
@@ -15,6 +16,8 @@ console.log(i1);
 
 let acc = new account(8001, c);
 console.log(acc);
+
+getCustomerName();
 
 //hello world nowss
 //lorem ipsum dolor itsum sit
